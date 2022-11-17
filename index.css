@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+    nav {
+        margin:0px;
+        padding: 20px 0px;
+        background-color: rgba(255, 255, 255, 0.205);
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       
+       nav a{
+           color:rgb(255, 255, 255);
+           text-decoration: none;
+           font-size:25px ;
+           margin-right: 50px;
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+       }
+       nav a:hover{
+        text-decoration: none;
+        color:rgb(235, 114, 219);
+       }
+       nav li{
+          float: right;
+          list-style:none;
+          margin-right: 0px;    
+       }
+
+nav img{
+    margin: 0px 50px;
+    height: 90px;
+    width: 90px;
+    padding: 0px 10px;
+    }
+.fundo{
+    height: 900px;
+    width: 1725px;
+    margin:0px;
+}
+
+

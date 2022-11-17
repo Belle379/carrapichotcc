@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+       
+       .menu {
+        display: block;
+        margin-top:0px;
+        padding-top: 10px;
+        background-color: rgba(223, 141, 141, 0.205);
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .menu li{
+        position: relative;
+        display:inline-block;
+       list-style:none;
+       margin-right: 0px;    
+    }
+    
+       .menu li a{
+        
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        font-size:25px ;
+        margin-right: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    }
+    .menu li a:hover{
+     text-decoration: none;
+     color:rgb(235, 114, 219);
+    }
+    
+    .menu li a img{
+        width: 50px;
+        height: 55px;
+     
+     }
+    .ps{
+        padding-left: 1070px;
+    }
+.fundo{
+    height: 900px;
+    width: 1725px;
+    margin:0px;
+}
+
+.tudo{
+margin: 0px;
+}

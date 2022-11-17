@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+    
+    background-color: rgb(253, 236, 215);
+}
+ 
+.container{
+  margin-top: 30px;
+  margin-left: 15%;
+
+}
+table{
+    margin-top: 5px;
+    width: 1000px; 
+    border-radius: 25px;
+}
+thead tr {
+   width: 200px; 
+   height: 60px;
+   background-color:rgba(238, 122, 27, 0.692);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color:antiquewhite;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+
+}
+#n{
+    border-radius:25px 0px 0px 0px;
+}
+#s{
+    border-radius:0px 25px  0px 0px; 
+}
+
+td{
+    background-color: rgba(252, 210, 158, 0.678);
+    text-align: center;
+    color:rgb(65, 65, 65);
+    height: 80px;
+}
+a{
+    text-decoration: none;
+    color:rgb(65, 65, 65);
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    color: rgb(154, 110, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.suporte p{
+  text-align: center;
+  margin: 50px;
+  font-size: 15px;
+  color: rgb(245, 151, 122);
+}
+ 
+input{
+    float:left;
+    border-radius: 10px  0px 0px 10px;
+    padding-left: 10px;
+    width: 800px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 65px;
+    border: 1px solid rgb(195, 43, 226);
+    font-size: 15px;
+
+}
+input:hover{
+  border: 1px solid rgb(195, 43, 226);
+}
+button{ 
+    width: 70px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: rgb(195, 43, 226);
+    border: 1px solid rgb(195, 43, 226);
+    border-radius: 0px 10px 10px 0px;
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover {
+    background-color: rgba(195, 43, 226, 0.527);
+    color: rgb(44, 44, 44);
+  }
+  #c{
+ 
+    float:left;
+    width: 160px;
+    height: 60;
+    margin-top: 20px;
+    margin-left: 28%;
+    background-color:rgb(252, 117, 76);
+    border: 1px solid rgb(252, 117, 76);
+    border-radius: 30px  0px 0px 30px;
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #c:hover {
+    background-color: rgba(252, 117, 76, 0.651);;
+    color: rgb(88, 88, 88);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #v{
+    width: 160px;
+    height: 60;
+    margin-top: 20px;
+    background-color:rgb(252, 117, 76);
+    border: 1px solid rgb(252, 117, 76);
+    border-radius: 0px 30px 30px 0px;
+    color: antiquewhite;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #v:hover {
+    background-color: rgba(252, 117, 76, 0.651);;
+    color: rgb(77, 77, 77);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .imgesquerda{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-top: -5%;
+  }
+  .imgdireita{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: -8%;
+  }
